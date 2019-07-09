@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mltr{
+   margin-left: 10%;
+   margin-right: 10%;
+}
+#menu a{
+  color: red;
+}
+/*header*/
+#sit-br{
+	background-image: url("images2/1.jpg");
+	overflow: hidden;
+}
+#eget h4{
+  color: white;
+}
+#heading-candid{
+font-family: "B612Mono-Bold";
+	text-align: center;
+	padding-bottom: 49%;
+	padding-top: 1%;
+	/*! text-emphasis-color: red; */
+	color: white;
+	font-size: 42px;
+}
+/*header close*/
+/*candid2*/
+  #candid{
+  	clear: both;
+  	overflow: hidden;
+  }
+  .candid-box{
+  	clear: both;
+  	overflow: hidden;
+  }
+  .candid-image-60{
+  	width: 61%;
+  	float:left;
+  }
+   .candid-image-40{
+  	width: 36%;
+  	float: left;
+  }
+  .candid-image-60 img{
+  	width: 100%;
+    margin-bottom:   -4px;
+  }
+  .candid-image-40 img{
+  	width: 102%;
+    margin-bottom: -9px;
+  }
+/*candid2*/
+/*about us*/
+#about{
+clear: both;
+}
+.about-box{
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+.about-box p{
+	line-height: 2;
+	font-size: 1em;
+	color: #888;
+}
+.about-box img{
+	width: 100%;
+}
+/*about close*/
+/*gallery*/
+#gallery{
+  overflow: hidden;
+  clear: both;
+}
+.gallery-head-box{
+  width: 50%;
+  float: left;
+  overflow: hidden;
+
+}
+.gallery-head-image-100 {
+  width: 100%;
+}
+.gallery-head-image-50{
+  width: 50%;
+  float: left;
+}
+.gallery-head-image-100 img{
+  width: 100%;
+}
+.gallery-head-image-50 img{
+  width: 100%;
+}
+/*gallery close*/
+/*creativity*/
+#creativity{
+overflow: hidden;
+clear: both;
+background-color: rgba(0,0,0,.5);
+
+}
+#creativity-head{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+}
+.creativity-box{
+
+}
+.creativity-botton{
+  text-align: center;
+}
+.button-red{
+  background-color: red;
+  padding: 1%;
+}
+/*creativity close*/
+/*Team*/
+#team{
+overflow: hidden;
+clear: both;
+}
+#team-head{
+
+}
+.team-image{
+  float: left;
+  width: 33%;
+
+  padding-bottom: 6%;
+  padding-top: 2%;
+}
+.team-image img{
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+.team-image p {
+  line-height: 30px;
+}
+@font-face{
+  font-family: "B612Mono-Bold";
+  src: url("webfonts/B612Mono-Bold.ttf");
+}
+.icon i {
+  background-color: red;
+}

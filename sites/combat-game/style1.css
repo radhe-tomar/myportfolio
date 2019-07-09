@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+#stip-bt{
+background-color: #ff00d882;;
+overflow: hidden;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.mlr{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#logo{
+	float: left;
+	color: #fff;
+	width: 10%;
+	width: 37%;
+}
+#menu{
+	float: right;
+	width: 46%;
+}
+#menu a{
+ text-decoration: none;
+ color: #fff;
+ margin-right: 7%;
+}
+#header-box {
+width: 30%;
+margin-top: 8%
+margin-bottom: 6%;
+color: white;
+margin:5%;
+    padding-top: 12%;
+    padding-bottom: 18%;
+}
+#head span{
+	color: red;
+}
+#head h1 {
+	text-align: center;
+}
+@font-face{
+	font-family: blackops;
+	src:url("webfonts/BlackOpsOne-Regular.ttf");
+}
+#header-box h1{
+	font-family: "blackOps";
+	font-size: 83px;
+}
+/*combat-g*/
+#combat-g{
+
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+#combat-g-head{
+	text-align: center;
+	width: 23%;
+	margin: 0 auto;
+
+}
+#combat-g-head span{
+	color: red;
+}
+#combat-g-head p{
+	padding-bottom: 26px;
+	padding-top: 13px;
+}
+.combat-g-images{
+	width: 29%;
+	float: left;
+	margin-right: 4%;
+}
+.combat-g-images img{
+	width: 100%;
+}
+/*requirement*/
+#requirement{
+	clear: both;
+	background-image: url("images/require.jpg");
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 9%;
+	padding-top: 4%;
+	background-position: center;
+}
+#requirement-head {
+	text-align: center;
+
+	color: whitesmoke;
+	padding-top: 1%;
+	padding-bottom: 7%;
+}
+.requirement-image{
+	width: 33%;
+	float: left;
+	color: white;
+}
+#requirement i{
+
+	font-size: 3em;
+	color: #2dfd09;
+}
+/*Upcoming-Game*/
+#Upcoming-Game{
+
+}
+#Upcoming-Game-head{
+
+}
+#Upcoming-Game-head h1{
+
+}
+#Upcoming-Game-head p{
+
+}
+#Upcoming-Game-head-1{
+
+}
+.Upcoming-Game-image{
+	
+}
+/*TEAM Members*/
+#Team-Members{
+	background-color: #b97b7b;
+	overflow: hidden;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#Team-Members-head{
+	text-align: center;
+	font-size: 33px;
+	padding-bottom: 26px;
+	padding: ;
+}
+.Team-Members-image{
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+}
+.Team-Members-image img{
+	width: 100%;
+}
+/**Footer**/
+#footer{
+	padding-top: 2%;
+	padding-bottom:2%;
+	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+}
+.footer-text-hd{
+	float: left;
+	width: 24%;
+	margin-right:5%;
+}
+#footer-copy{
+	clear: both;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+#footer-copy span{
+	color: blue;
+}
+.footer-text-hd button{
+	background-color: red;
+	padding: 3%;
+}
+#footer-placeholder{
+	padding: 3%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+}
