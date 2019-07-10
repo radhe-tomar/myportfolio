@@ -1,7 +1,7 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .mltr{
    margin-left: 10%;
@@ -9,42 +9,42 @@
 }
 /*header*/
 #sit-br{
-	background-image: url("images2/1.jpg");
-	overflow: hidden;
+  background-image: url("images2/1.jpg");
+  overflow: hidden;
 }
 #heading-candid{
 font-family: "B612Mono-Bold";
-	text-align: center;
-	padding-bottom: 19%;
-	padding-top: 1%;
-	/*! text-emphasis-color: red; */
-	color: white;
-	font-size: 42px;
+  text-align: center;
+  padding-bottom: 19%;
+  padding-top: 1%;
+  /*! text-emphasis-color: red; */
+  color: white;
+  font-size: 42px;
 }
 /*header close*/
 /*candid2*/
   #candid{
-  	clear: both;
-  	overflow: hidden;
+    clear: both;
+    overflow: hidden;
   }
   .candid-box{
-  	clear: both;
-  	overflow: hidden;
+    clear: both;
+    overflow: hidden;
   }
   .candid-image-60{
-  	width: 61%;
-  	float:left;
+    width: 61%;
+    float:left;
   }
    .candid-image-40{
-  	width: 36%;
-  	float: left;
+    width: 36%;
+    float: left;
   }
   .candid-image-60 img{
-  	width: 106%;
+    width: 106%;
     margin-bottom:   -4px;
   }
   .candid-image-40 img{
-  	width: 109%;
+    width: 109%;
     margin-bottom: -9px;
   }
 /*candid2*/
@@ -53,23 +53,27 @@ font-family: "B612Mono-Bold";
 clear: both;
 }
 .about-box{
-	width: 48%;
-	float: left;
-	margin-right: 2%;
+  width: 48%;
+  float: left;
+  margin-right: 2%;
 }
 .about-box p{
-	line-height: 2;
-	font-size: 1em;
-	color: #888;
+  line-height: 2;
+  font-size: 1em;
+  color: #888;
 }
 .about-box img{
-	width: 100%;
+  width: 100%;
 }
 /*about close*/
 /*gallery*/
 #gallery{
   overflow: hidden;
   clear: both;
+  padding: 5% 0 0% 0;
+}
+#gallery-head {
+  margin-bottom: 5%;
 }
 .gallery-head-box{
   width: 50%;
@@ -96,6 +100,7 @@ clear: both;
 overflow: hidden;
 clear: both;
 background-color: rgba(0,0,0,.5);
+padding: 5% 0 5% 0;
 
 }
 #creativity-head{
@@ -119,16 +124,24 @@ background-color: rgba(0,0,0,.5);
 #team{
 overflow: hidden;
 clear: both;
+margin-top: 5%;
+padding-bottom: 5%;
 }
 #team-head{
 
+  margin-bottom: 5%;
 }
 .team-image{
   float: left;
-  width: 33%;
-
+  width: 31%;
   padding-bottom: 6%;
   padding-top: 2%;
+  box-shadow: 0px 0px 5px 2px #ddd;
+  text-align: center;
+  margin-right: 3%;
+}
+.team-image:last-child {
+  margin-right: 0;
 }
 .team-image img{
   padding-bottom: 5%;
@@ -142,6 +155,14 @@ clear: both;
   font-family: "B612Mono-Bold";
   src: url("webfonts/B612Mono-Bold.ttf");
 }
+.icon {
+  margin-top: 5%;
+}
 .icon i {
   background-color: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
 }
