@@ -19,6 +19,15 @@
  .combat-g-images {
  	width: 100%;
  }
+ .requirement-image{
+ 	width: 100%;
+ }
+ .Team-Members-image{
+ 	width: 100%;
+ }
+ .footer-text-hd{
+ 	width: 100%;
+ }
 }
 /* Mobile 360 */ 
 @media only screen and (min-width: 321px) and (max-width : 360px) {
