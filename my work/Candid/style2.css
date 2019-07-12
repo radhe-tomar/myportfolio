@@ -47,6 +47,24 @@ font-family: "B612Mono-Bold";
     width: 109%;
     margin-bottom: -9px;
   }
+  .box-taxt{
+width: 59%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 35%;
+position: absolute;
+top: 0%;
+left: 0%;
+color: #fff;
+width: 71%;
+height: 63%;
+background-color: (53,142,65,0.5);
+background-color: #4d444457;
+}  
+.box-taxt hr{
+  width: 15%;
+  color: #ddd;
+}
 /*candid2*/
 /*about us*/
 #about{
@@ -166,3 +184,70 @@ padding-bottom: 5%;
   line-height: 30px;
   color: #fff;
 }
+/*team close*/
+/*form tag*/
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+ .footer-form{
+    clear: both;
+    overflow: hidden;
+    background-color: #124042;
+    color: #fffafa;
+    /*! padding-top: 4%; */
+    /*! padding-bottom: 4%; */
+ }
+ .footer-form-box1{
+  float: left;
+  width: 60%;
+
+ }
+ .ffb1-form{
+
+  width: 61%;
+  margin: 0 auto;
+ }
+
+ .form-tag{
+
+ }
+ .form-controls{
+  padding: 1% 0 1% 0;
+ }
+ .form-controls input{
+  padding: 2%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 49%;
+  color: #fff;
+ }
+ .form-controls textarea{
+  width: 99%;
+  padding: 2%;
+  color: #fff;
+  background-color: transparent;
+
+ }
+.footer-form-box2{
+   float: left;
+   width:40%;
+   border-left: 2px solid #fff;
+  }
+.ffb2-box{
+      overflow: hidden;
+      clear: both;
+      padding: 4%;
+      border-bottom: 1px solid #fff;
+}
+.ffb2-box-icon{
+  float: left;
+  width: 10%;
+  margin-right: 2%;
+}
+.ffb2-box-text{
+  float: left;
+  width: 60%;
+}
+.form-controls input::placeholder , .form-controls textarea::placeholder {
+  color: #fff;
+}
+
+/*form tag close*/
