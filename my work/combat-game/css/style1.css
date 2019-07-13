@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 header{
-	background-image: url(images/bg.jpg);
+	background-image: url("../images/bg.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -52,7 +52,7 @@ margin:5%;
 }
 #header-box h1{
 	font-family: "blackOps";
-	font-size: 83px;
+	font-size: 74px;
 }
 /*combat-g*/
 #combat-g{
@@ -84,7 +84,7 @@ margin:5%;
 /*requirement*/
 #requirement{
 	clear: both;
-	background-image: url("images/require.jpg");
+	background-image: url("../images/require.jpg");
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;
