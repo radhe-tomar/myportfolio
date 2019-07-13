@@ -291,3 +291,45 @@ padding-bottom: 5%;
 }
 
 /*form tag close*/
+/*second last*/
+.email-subs{
+  clear: both;
+  overflow: hidden;
+  padding: 5% 0 5% 0;
+
+}
+.email {
+
+  float: left;
+  margin-right: 8%;
+  width: 50%;
+  margin-left: 2%;
+}
+.subscribe {
+
+}
+.botton-yellow {
+  background-color: yellow;
+  width: 10%;
+  padding: 1%0;
+}
+/*second last close*/
+/*footer*/
+.footer{
+       clear: both;
+       overflow: hidden;
+       padding: 5% 0 5% 0;
+       background-color: black;
+}
+.footer-icon {
+  text-align: center;
+
+  color: white;
+}
+.footer-text {
+  text-align: center;
+
+  color: white;
+  padding-top: 3%;
+}
+/*footer close*/

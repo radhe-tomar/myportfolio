@@ -44,8 +44,9 @@
  .combat-g-images {
  	width: 100%;
  }
+ }
  .requirement-image{
- 	100%;
+ 	width:100%;
  }
 .Team-Members-image{
 	width: 95%;
@@ -53,7 +54,9 @@
 .footer-text-hd{
 	width: 100%;
 }
-
+#menu{
+	width: 100%;
+}
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width: 361px) and (max-width : 420px) {
