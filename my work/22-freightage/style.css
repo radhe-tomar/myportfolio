@@ -101,14 +101,14 @@ header {
 	padding-top: 0%;
 }
 .amzing-text {
-
 	overflow: hidden;
 	clear: both;
+	margin-bottom: 5%;
 }
 .text-60 {
-
 	float: left;
 	width: 50%;
+	margin-left: 2%;
 }
 .text-60 h2 {
 	color: red;
@@ -118,7 +118,8 @@ header {
 	width: 40%;
 }
 .img-40 img {
-     width: 57%;
+     width: 100%;
+     margin-bottom: -4px;
 }
 .img-40:first-child {
 	float: left;
@@ -135,11 +136,14 @@ header {
  .box {
  	float: left;
 
- 	width: 25%;
+ 	width: 21%;
+ 	border-bottom: 1px solid #ff304d;
+ 	margin-right: 4%;
+ 	text-align: center;
  }
  .year {
  	background-color: #2e505b;
- 	width: 80%;
+ 	width: 100%;
  	text-align: center;
  	padding-bottom: 5%;
  	padding-top: 5%;
@@ -147,16 +151,14 @@ header {
  .year h1 {
 
 	color: #ff304d;
-	padding-left: 15%;
  }
 .year p {
 	
-	color: white;
+	color: #3a8cd2;
 }
 .box h1 {
-	text-align: center;
 
-	width: 76%;
+	width: 100%;
 	padding-bottom: 2%;
 }
 .col {
@@ -176,15 +178,16 @@ width: 25%;
 margin: 1%;
  }
  .quickest {
- 	margin-bottom: 31%;
  	overflow: hidden;
+ 	overflow: hidden;
+ 	margin-bottom: 10%;
  }
  .imgage {
 float: left;
 margin: 0% 14% 0% 5%;
 width: 25%;
  }
-
+.imgage img { width: 100%; }
  .table-second {
 float: left;
 width: 25%;
@@ -194,16 +197,38 @@ width: 25%;
  }
  .icon {
  	float: right;
+ 	width: 24%;
+ 	background: red;
+ 	padding: 5%;
+ 	text-align: center;
  }
  .icon-sec {
  	float: left;
+ 	width: 24%;
+ 	background: red;
+ 	padding: 5%;
  }
  .train{
-   margin-bottom: 40%;
+   margin-bottom: 10%;
+   overflow: hidden;
+ }
+ .quickest-color {
+
+	width: 75%;
+	float: left;
+ }
+ .icon {
+ 	
  }
  .quickest-color h2 {
  	color: #ff3067;
  	margin-bottom: 5%;
+ }
+ .train-color {
+ 	
+	width: 70%;
+	float: right;
+	margin-left: 4%;
  }
  .train-color h2 {
  	color: #ff3067;
@@ -229,6 +254,7 @@ clear: both;
 
 	/*! overflow: hidden; */
   }
+  .images img { width: 100%; margin-bottom: -4px; }
   .text {
 
 	float: left;
@@ -239,11 +265,10 @@ clear: both;
   }
   .text h1{
   	color:white;
-  	padding-bottom: 20%;
-  	padding-top: 8%;
+  	padding-bottom: 14%;
   }
   .text p{
-  	color:#663300;
+  	color:#fff;
   }
   .color-text {
   	background-color: black;
