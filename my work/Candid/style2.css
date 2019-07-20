@@ -13,10 +13,27 @@
   overflow: hidden;
 }
 #heading-candid{
-font-family: "B612Mono-Bold";
+ font-family: "B612Mono-Bold";
   text-align: center;
   padding-bottom: 19%;
   padding-top: 1%;
+  color: white;
+  font-size: 85px;
+}
+  #eget{
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 34%;
+  color: white;
+  font-size: 70px;
+  }
+  #rula{
+  text-align: center;
+  }
+  #menu {
+  	color: white;
+  }
   /*! text-emphasis-color: red; */
   color: white;
   font-size: 42px;
@@ -325,6 +342,7 @@ padding-bottom: 5%;
   text-align: center;
 
   color: white;
+  font-size: 316%;
 }
 .footer-text {
   text-align: center;
