@@ -260,7 +260,7 @@ clear: both;
 	float: left;
 	width: 50%;
 	text-align: center;
-	padding: 6% 4% 7% 7%;
+	padding: 9% 4% 7% 7%;
 	background-color: black;
   }
   .text h1{
@@ -302,3 +302,9 @@ clear: both;
  	margin-bottom: -4px;
  }
  /*gallery -close*/
+ /*contact*/
+ #contact {
+ 	clear: both;
+ 	overflow: hidden;
+ }
+/*contact close*/
