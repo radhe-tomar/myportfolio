@@ -306,5 +306,9 @@ clear: both;
  #contact {
  	clear: both;
  	overflow: hidden;
+ 	position: relative;
  }
+ .cont-head {}
+ .map {}
+ .cont-info {position: absolute;bottom: 40px;left: 2%;background-color: rgba(217, 10, 10, 0.8);padding: 2%;}
 /*contact close*/
