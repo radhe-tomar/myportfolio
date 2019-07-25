@@ -3,7 +3,173 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.mltr {
+	margin-left: 2%; 
+	margin-right:2%;
+}
 header {
+	background-image: url("images/bann5.jpg");
+	overflow: hidden;
+	padding-bottom: 5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#menu-strip {
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+#logo {
+	float: left;
+	width: 15%;
+	background-color: #ff304d;
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+	
+}
+#lrnav {
+	float: right;
+	width: 46%;
+	overflow: hidden;
+}
+#contact {
+	/*! overflow: hidden; */
+	width: 100%;
+	float: right;
+	clear: both;
+	margin-bottom: 0%;
+	margin-top: 3%;
+}
+#contact-box {
+	float: left;
+	overflow: hidden;
+	width: 30%;
+}
+#contact-icon {
+	float: left;
+	width: 15%;
+}
+#contact-number {
+	float: left;
+	width: 75%;
+	margin-left: 5%;
+	border-right: 3px solid #000;
+}
+#login-reg {
+	float: left;
+	width: 30%;
+}
+.btn-blue {
+	background-color: #01bcfa;
+	padding: 5% 15% 5% 15%;
+	text-align: center;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+#contact-icon i {
+
+	font-size: 2em;
+}
+#contact-number p {
+
+	color: #fff;
+}
+nav {
+
+	width: 100%;
+	clear: both;
+}
+nav a {
+	
+	text-transform: uppercase;
+	text-decoration: navajowhite;
+	color: #fff;
+	margin-right: 5%;
+}
+#del-box {
+
+	width: 40%;
+	float: left;
+	margin-left: 9%;
+}
+#del-box-text {
+	
+}
+#del-box-text h1 {
+	color: #fff;
+	font-size: 5em;
+	text-transform: uppercase;
+	font-family: "Rob";
+}
+#del-box-text p {
+	
+	color: #fff;
+	word-spacing: 10px;
+	font-size: 1.2em;
+}
+#del-box-icons {
+
+	overflow: hidden;
+	width: 100%;
+	height: 48px;
+	margin-top: 5%;
+}
+.dbi-box {
+
+	width: 15px;
+	height: 15px;
+	background-color: #01bcfa;
+	display: block;
+	border: 2px solid #fff;
+	float: left;
+	margin-right: 5%;
+}
+.dbi-box.active {
+	
+	background-color: red;
+}
+#header-form {
+
+	width: 25%;
+	float: right;
+	margin-right: 11%;
+}
+.hfinput {
+
+	width: 100%;
+	padding: 3%;
+	margin-bottom: 2%;
+	background-color: rgba(0,0,0,.3);
+	border: transparent;
+}
+.hfinput::placeholder {
+	color: #fff;
+}
+.hfselect {
+
+	width: 100%;
+	padding: 3%;
+	background-color: rgba(0,0,0,.3);
+	border: transparent;
+	margin-bottom: 2%;
+	color: #fff;
+}
+.hfbtn-red {
+	
+	background-color: #ff304d;
+	color: #fff;
+	width: 100%;
+	padding: 3%;
+	text-transform: uppercase;
+	border: transparent;
+}
+/*Header Code Stop*/
+/*fjhdsghvrsjdghvsjrhdfgvjsgerdgfvhesrdhifvhisrjdzfhgvijesdgrfvjsghdfgvhsrjdghfvsegrd*/
+/*header {
 	background-image: url(images/bann5.jpg);
 	background-repeat: no-repeat;
 
@@ -87,7 +253,7 @@ header {
 	height:10px;
 	border: solid white;
 	display:inline-block;
-}
+}*/
 /*Amzing*/
 .amzing {
 
@@ -247,14 +413,41 @@ clear: both;
 	float: left;
 	/*! margin: 2% 2% 5% 3%; */
   }
-  .images {
+  .box-re {
 
 	float: left;
-	width: 50%;
-
+	/*width: 50%;*/
+width: 50%;
+	float: left;
+	position: relative;
+	overflow: hidden;
 	/*! overflow: hidden; */
   }
-  .images img { width: 100%; margin-bottom: -4px; }
+  .box-re img { width: 100%; margin-bottom: -4px;width: 100%;  transform: scale(1); transition: .3s;}
+  .box-text {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(242, 67, 67, 0.5);
+	transition: all .3s;
+	transform: scale(0);
+}
+.box-text h1 {
+	margin-top: 25%;
+	margin-left: 21%;
+	color: #fff;
+	opacity: 0;
+	transition: .3s .3s;
+}
+.box-re:hover .box-text {
+	transform: scale(1);
+}
+.box-re:hover .box-text h1{
+	opacity: 1;
+}
+
   .text {
 
 	float: left;
@@ -308,7 +501,43 @@ clear: both;
  	overflow: hidden;
  	position: relative;
  }
- .cont-head {}
+ .cont-head {
+ 	text-align: center;
+ 	padding-top: 1%;
+ 	padding-bottom: 1%;
+ }
  .map {}
- .cont-info {position: absolute;bottom: 40px;left: 2%;background-color: rgba(217, 10, 10, 0.8);padding: 2%;}
+ .cont-info {position: absolute;
+ 	bottom: 30px;
+ 	left: 2%;
+ 	background-color: rgba(217, 10, 10, 0.8);
+ 	padding: 2% 1% 1% 1%;
+ 	line-height: 2em;}
+
+.cont-us h2 {
+	color: #fff;
+}
+.cont-open h2 {
+	color: #fff;
+}
+.color {
+	color: #fff;
+}
+ button{
+	color: red;
+}
 /*contact close*/
+/*footer*/
+#footer {
+	clear: both;
+	overflow: hidden;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	background: #383838;
+	color: #fff;
+}
+#footer span {
+	color: #ed8080;
+}
+/*footer close*/

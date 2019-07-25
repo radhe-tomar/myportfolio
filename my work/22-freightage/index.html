@@ -2,12 +2,74 @@
 <html>
 <head>
 	<title>22-freightage</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<header>
+	<div id="menu-strip">
+		<div id="logo">
+			<h1>Freightage</h1>
+		</div>
+		<div id="lrnav">
+			<div id="contact">
+				<div id="contact-box">
+					<div id="contact-icon">
+						<i class="fas fa-mobile"></i>
+					</div>
+					<div id="contact-number">
+						<p>Call Us Now</p>
+						<p>+0 111 222 333</p>
+					</div>
+				</div>	<!-- Contact Box end here -->
+				<div id="login-reg">
+					<button class="btn-blue">Login</button>
+					<button class="btn-blue">Register</button>
+				</div>	<!-- Login-reg -->
+			</div>	<!-- Contact end -->
+			<nav>
+				<a href="">Home</a>
+				<a href="">Features</a>
+				<a href="">Capabilites</a>
+				<a href="">Team</a>
+				<a href="">Gallery</a>
+				<a href="">Contact</a>
+			</nav>
+		</div>	<!-- lrnav end  -->
+	</div>	<!-- Menu Strip -->
+	<div id="del-box">
+		<div id="del-box-text">
+			<h1>Delivery</h1>
+			<h1>Unlimited</h1>
+			<p>Discover a better way of transport</p>
+		</div>
+		<div id="del-box-icons">
+			<i class="dbi-box"></i>
+			<i class="dbi-box"></i>
+			<i class="dbi-box"></i>
+			<i class="dbi-box active"></i>
+		</div>
+	</div> <!-- Del Box end -->
+	<div id="header-form">
+		<input type="text" class="hfinput" placeholder="Name" />
+		<input type="email" class="hfinput" placeholder="Email" />
+		<select class="hfselect">
+			<option>transport From</option>
+		</select>
+		<select class="hfselect">
+			<option>transport To</option>
+		</select>
+		<select class="hfselect">
+			<option>Type of Departure</option>
+		</select>
+		<button class="hfbtn-red">Get Started</button>
+	</div>	<!-- Header-form -->
+</header> <!-- Header End -->
+	<!-- headerrgidgfisdhzgoudrhtgoidfjghpgfjcnpifyjnjpvghjnjtfghjbhdxfghb;dtgkjnfjghvotlkhjnkjtugbpfl;hjnbi -->
     <!-- header -->
-    <header>
+    <!--<header>
 
          <div class="freightage">
          	<div id="freightage-heading">
@@ -52,7 +114,7 @@
         </div>
          	</div>
          </div>
-     </header>
+     </header>-->
     <!-- header close -->
     <!-- Amzing -->
     <div class="amzing">
@@ -207,11 +269,54 @@
 <!-- capabilities close -->
 <!-- TEAM -->
 <div class="team">
+	<div class="mltr">
     <div class="img">
-        <div class="images"><img src="images/t1.jpg" alt="1"></div>
-        <div class="images"><img src="images/t2.jpg" alt="2"></div>
-        <div class="images"><img src="images/t3.jpg" alt="3"></div>
-        <div class="images"><img src="images/t4.jpg" alt="4"></div>
+        <div class="box-re">
+            <img src="images/t1.jpg" alt="1">
+             <div class="box-text">
+        <h1>Smith Doe</h1>
+        <p>Truck Driver</p>
+         <i class="fab fa-facebook-square"></i>
+         <i class="fab fa-twitter-square"></i>
+         <i class="fab fa-google-plus-square"></i>
+        </div>
+        
+        </div>
+        <div class="box-re">
+            <img src="images/t2.jpg" alt="2">
+                <div class="box-text">
+        <h1>Richard</h1>
+        <p>Bus Driver</p>
+        <i class="fab fa-facebook-square"></i>
+         <i class="fab fa-twitter-square"></i>
+         <i class="fab fa-google-plus-square"></i>
+        </div>
+        
+        </div>
+        <div class="box-re">
+            <img src="images/t3.jpg" alt="3">
+                <div class="box-text">
+        <h1>Samuol John</h1>
+        <p>Car Driver</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-google-plus-square"></i>
+        </div>
+        
+        </div>
+        <div class="box-re">
+            <img src="images/t4.jpg" alt="4">
+                <div class="box-text">
+        <h1>Pattrick</h1>
+        <p>Auto Driver</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-google-plus-square"></i>
+        </div>
+      
+            
+        </div>
+      
     </div><!-- img -close -->
     <!-- <div class="color-text"> -->
     <div class="text">
@@ -233,6 +338,7 @@
 <!-- TEAM close -->
 <!-- gallery -->
 <div class="gallery">
+	<div class="mltr">
     <div id="heading">
         <h1>VEHICLES GALLERY</h1>
     </div>
@@ -253,9 +359,11 @@
         </div><!--class="imgag-tab-3-->
     </div><!-- mltr close -->
 </div>
+</div>
 <!-- gallery close -->
 <!-- Contact -->
 <div id="contact">
+	<div class="mltr">
 	<div class="cont-head">
 		<h1>CONTACT INFO</h1>
 	</div><!-- cont-head close-->
@@ -275,10 +383,19 @@
 				<p>7.00AM-10.00PM</p>
 			</div>
 		</div>
+		<div class="button">
 		<button>SEND MESSAGE</button>
+	</div>
 	</div><!-- cant-info -->
 
 </div>
+</div>
 <!-- contact close -->
+<!-- footer -->
+<div id="footer">
+		<P>&copy;2016 Compact Game.All Right |Lorem ipsum dolor sit by<span>Arena Animation</span></P>
+	
+</div>
+<!-- footer close -->
 </body>
 </html>
