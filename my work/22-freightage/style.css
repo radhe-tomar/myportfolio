@@ -453,8 +453,9 @@ width: 50%;
 	float: left;
 	width: 50%;
 	text-align: center;
-	padding: 9% 4% 7% 7%;
+	padding: 14% 4% 7% 7%;
 	background-color: black;
+	color: white;
   }
   .box-text h1{
   	color:white;
