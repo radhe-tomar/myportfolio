@@ -1,14 +1,63 @@
 #contact-icon {
-	padding: 1%;
+	padding: 1%; 
 	height: 50px;
 	width: 100%;
 	clear: both;
 }
+@media only screen and (max-width: 460px)
+{
+	body {
+		 background-color: #f6f6f6;
+	}
+	#logo {
+		width: 38% !important;
+	}
+	#del-box-text h1 {
+		font-size: 2em !important;
+	}
+	.img-40 {
+		width: 100% ! important;
+	}
+	.text-60 {
+		width: 100% ! important;
+	}
+	.box {
+		width: 46% ! important;
+	}
+	.table-one {
+		width: 100% ! important;
+	}
+	.imgage {
+		width: 100% ! important;
+		margin-left: 0% ! important;
+	}
+	.table-second {
+		width: 100% ! important;
+	}
+	.img {
+        width: 100% ! important;
+	}
+	.text {
+		width: 100% ! important;
+	}
+	.imgag-tab-1 {
+		width: 100% ! important;
+	}
+	.imgag-tab-2 {
+		width: 100% ! important;
+	}
+	.imgag-tab-3{
+		width: 100% ! important;
+	}
+} 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
  #contact-icon { background-color: #f44336 !important; }
  #header {
- 	width: 90%;
+ 	width: 100%;
+ }
+ #logo {
+ 	width: 35%;
  }
  #header h1 {
  	font-size: 45px;
