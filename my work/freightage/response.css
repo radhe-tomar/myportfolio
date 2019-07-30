@@ -56,60 +56,98 @@
 } 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
- #contact-icon { background-color: #f44336 !important; }
- #header {
- 	width: 100%;
- }
  #logo {
- 	width: 35%;
- }
- #header h1 {
- 	font-size: 45px;
- }
- #combat-g-head {
- 	width: 100%;
- }
- .combat-g-images {
- 	width: 100%;
- }
- .requirement-image{
- 	width: 100%;
- }
- .Team-Members-image{
- 	width: 100%;
- }
- .footer-text-hd{
- 	width: 100%;
- }
-}
+		width: 54% !important;
+	}
+	#del-box-text h1 {
+		font-size: 2em !important;
+	}
+	.img-40 {
+		width: 100% ! important;
+	}
+	.text-60 {
+		width: 100% ! important;
+	}
+	.box {
+		width: 46% ! important;
+	}
+	.table-one {
+		width: 100% ! important;
+	}
+	.imgage {
+		width: 100% ! important;
+		margin-left: 0% ! important;
+	}
+	.table-second {
+		width: 100% ! important;
+	}
+	.img {
+        width: 100% ! important;
+	}
+	.text {
+		width: 100% ! important;
+	}
+	.imgag-tab-1 {
+		width: 100% ! important;
+	}
+	.imgag-tab-2 {
+		width: 100% ! important;
+	}
+	.imgag-tab-3{
+		width: 100% ! important;
+	}
+	#header-form { width: 80% !important; }
+	#del-box { width: 100% !important; }
+	#lrnav { width: 100% !important; }
+	#contact-box { width: 35% !important; }
+} 
 /* Mobile 360 */ 
 @media only screen and (min-width: 321px) and (max-width : 360px) {
-#contact-icon { background-color: #9c27b0 !important; }
- #header-box {
- 	width: 90%;
- }
- #header-box h1 {
- 	font-size: 45px;
- }
- #combat-g-head {
- 	width: 100%;
- }
- .combat-g-images {
- 	width: 100%;
- }
- .Team-Members-image{
- 	width: 100%;
- }
- .footer-text-hd{
- 	width: 100;
- }
- .requirement-image{
- 	width: 100%;
- }
- .footer-text-hd{
- 	width:100%;
- }
-
+#logo {
+		width: 54% !important;
+	}
+	#del-box-text h1 {
+		font-size: 2em !important;
+	}
+	.img-40 {
+		width: 100% ! important;
+	}
+	.text-60 {
+		width: 100% ! important;
+	}
+	.box {
+		width: 46% ! important;
+	}
+	.table-one {
+		width: 100% ! important;
+	}
+	.imgage {
+		width: 100% ! important;
+		margin-left: 0% ! important;
+	}
+	.table-second {
+		width: 100% ! important;
+	}
+	.img {
+        width: 100% ! important;
+	}
+	.text {
+		width: 100% ! important;
+	}
+	.imgag-tab-1 {
+		width: 100% ! important;
+	}
+	.imgag-tab-2 {
+		width: 100% ! important;
+	}
+	.imgag-tab-3{
+		width: 100% ! important;
+	}
+	#header-form { width: 80% !important; }
+	#del-box { width: 100% !important; }
+	#lrnav { width: 100% !important; }
+	#contact-box { width: 35% !important; }
+} 
 } /*midea query 360*/
 
 /* Extra Small Devices, Phones */ 
@@ -139,7 +177,7 @@
 }
 	
 @media only screen and (min-width: 421px) and (max-width : 480px) {
- #contact-icon { background-color: #673ab7 !important; }
+/* #contact-icon*/ { background-color: #673ab7 !important; }
  #header-box {
 	width: 85%;	
 }
