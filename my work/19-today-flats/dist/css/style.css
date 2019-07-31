@@ -8,12 +8,29 @@
   margin-right: 2%; }
 
 header {
-  background-image: url("images/a.jpg");
+  background-image: url("../images/a.jpg");
   overflow: hidden;
   padding-bottom: 5%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
+.today {
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  background-color: blue; }
+
 .today-logo {
+  float: left;
+  width: 15%;
+  color: #fff;
+  text-align: center; }
+
+nav {
+  float: right;
+  overflow: hidden; }
+
+.tag {
   text-align: center; }
