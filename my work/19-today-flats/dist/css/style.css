@@ -91,7 +91,8 @@ button {
 #flat {
   overflow: hidden;
   clear: both;
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 10%; }
 
 .flat-1-tag {
   overflow: hidden;
@@ -176,11 +177,13 @@ button {
 .flat-sec-tag {
   overflow: hidden;
   float: left;
-  width: 55%;
-  margin-left: 5%; }
+  width: 60%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: red; }
 
 .flat-sec-img {
   float: right;
-  width: 35%; }
+  width: 40%; }
 
 /*flat-sec*/
