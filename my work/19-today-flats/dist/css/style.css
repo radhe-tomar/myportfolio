@@ -170,16 +170,17 @@ button {
 /*flat-sec*/
 #flat-sec {
   overflow: hidden;
-  clear: both;
-  width: 100%; }
+  width: 100%;
+  margin-top: 5%; }
 
 .flat-sec-tag {
   overflow: hidden;
-  clear: both;
   float: left;
-  width: 60%; }
+  width: 55%;
+  margin-left: 5%; }
 
 .flat-sec-img {
-  float: right; }
+  float: right;
+  width: 35%; }
 
 /*flat-sec*/
