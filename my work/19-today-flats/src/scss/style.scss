@@ -180,18 +180,80 @@ margin-top: 5%;
 	width: 60%;
 	padding-left: 5%;
 	padding-right: 5%;
-	background: red;
+	background: #00bcd4;
 }
 #flat-sec-head {
+	margin-top: 8%;
+	margin-bottom :8%;
+	color: #433a3a;
 }
+#flat-sec-head h1 {
+	position: relative;
+}
+#flat-sec-head h1::before {
+ content:"";
+ position:absolute;
+ bottom:0px;
+ width:17%;
+ height:4px;
+ background:#00f;
+ transition:all .3s
+}
+#flat-sec-head h1::after {
+ content:"";
+ position:absolute;
+ bottom:-9px;
+ width:34%;
+ height:4px;
+ background:#00f;
+ left:0
+}
+#flat-sec-head  h1:hover::before {
+ width:10%
+}
+#flat-sec-head h1:hover::after {
+ width:7%;
+}
+
 #flat-sec-phra {
+	margin-bottom: 8%;
 
 }
 .flat-sec-icon {
-
-}
+ margin-bottom: 8%;
+ color:white 
+ }
 .flat-sec-img {
 	float: right;
 	width: 40%;
 }
 /*flat-sec*/
+/*meeting*/
+#meet {
+overflow: hidden;
+padding-top: 5%;
+padding-bottom:5%;
+}
+#meet-head {
+text-align: center;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+#meet-head h1 {
+margin-top: 2%;
+margin-bottom: 2%;
+color: red;
+}
+#meet-head p{
+margin-top: 2%;
+margin-bottom: 2%;
+color: blue;
+}
+.meet-img {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.meet-img h2 {
+}
+/*meeting close*/
