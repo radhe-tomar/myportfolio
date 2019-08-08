@@ -257,6 +257,28 @@ color: #9999bb;
 .meet-img h2 {
 }
 /*meeting close*/
+/*Form-Tag Start*/
+#form-tag {
+clear: both;
+overflow: hidden;
+}
+.form-tag-input {
+	position: relative;
+	width: 15%;
+}
+.form-tag-input input {
+	padding: 2%;
+	padding-right: 15%;
+}
+.form-tag-input select {
+
+}
+.form-tag-input i {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+}
+/*Form Tag Stop*/
 /*gallery*/
 #gallery {
    background-color: #f7f7f7;
