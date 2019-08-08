@@ -74,7 +74,7 @@ nav a {
 hr {
   color: #20e6ff;
   width: 23%;
-  margin-left: 34%; }
+  margin-left: 38%; }
 
 .tag-phra {
   color: #fff;
@@ -240,12 +240,12 @@ button {
 #meet-head h1 {
   margin-top: 2%;
   margin-bottom: 2%;
-  color: red; }
+  color: #e91e63; }
 
 #meet-head p {
   margin-top: 2%;
   margin-bottom: 2%;
-  color: blue; }
+  color: #9999bb; }
 
 .meet-img {
   float: left;
@@ -253,3 +253,33 @@ button {
   text-align: center; }
 
 /*meeting close*/
+/*gallery*/
+#gallery {
+  background-color: #f7f7f7;
+  padding-bottom: 2%; }
+
+#gallery-head {
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+#gallery-head h1 {
+  margin-bottom: 2%;
+  color: #e91e63; }
+
+#gallery-head p {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: #9999bb; }
+
+.gallery-sec img {
+  width: 100%; }
+
+.gallery-sec {
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  margin-top: -2%; }
+
+/*gallery close*/
