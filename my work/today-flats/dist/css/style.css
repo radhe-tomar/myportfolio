@@ -154,7 +154,7 @@ button {
   clear: both;
   width: 50%;
   position: absolute;
-  top: 78em;
+  top: 77em;
   right: 0;
   line-height: 2em; }
 
@@ -302,3 +302,146 @@ button {
   margin-top: -2%; }
 
 /*gallery close*/
+/* testimonials*/
+#testimonials {
+  clear: both;
+  overflow: hidden; }
+
+#testimonials-head {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+#testimonials-head h1 {
+  color: #e91e63;
+  margin-bottom: 2%; }
+
+#testimonials-head p {
+  margin-top: 2%;
+  color: #9999bb; }
+
+.testimonials-name {
+  margin-right: 33%;
+  color: #9999bb;
+  overflow: hidden; }
+
+.name-float {
+  text-align: center;
+  float: right;
+  width: 17%;
+  overflow: hidden; }
+
+.testimonials-name-img {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  left: 33%;
+  top: 60%; }
+
+#testimonials-img {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%; }
+
+#testimonials-img h3 {
+  margin-top: 1%; }
+
+#testimonials-img p {
+  margin-top: 1%;
+  color: #20e6ff; }
+
+#testimonials-phra {
+  text-align: center;
+  color: #9999bb;
+  width: 48%;
+  margin: 0 auto;
+  margin-top: 2%; }
+
+/*testimonials close*/
+/*about-flat*/
+#location {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 5%; }
+
+#contact {
+  overflow: hidden;
+  width: 50%;
+  float: left;
+  padding-left: 8%;
+  background-color: #f7f7f7; }
+
+#contact-head {
+  margin-bottom: 5%;
+  margin-top: 2%; }
+
+#contact-head h1 {
+  margin-bottom: 5%; }
+
+#contact-head p {
+  width: 74%; }
+
+#contact-from input {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 3px solid red;
+  width: 40%;
+  margin-top: 6%;
+  background-color: transparent; }
+
+#about-flat {
+  overflow: hidden;
+  width: 50%;
+  float: right;
+  background-color: #00bcd4; }
+
+#about-head {
+  color: white;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%; }
+
+#about-address {
+  float: left;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 19%; }
+
+#about-address i {
+  color: #fff;
+  font-size: 25px; }
+
+#about-address h2 {
+  margin-bottom: 2%; }
+
+#about-follow {
+  float: right;
+  overflow: hidden;
+  position: absolute;
+  right: 6%;
+  bottom: 8%; }
+
+#about-follow i {
+  font-size: 29px;
+  color: #fff; }
+
+span {
+  color: #ffff; }
+
+#but {
+  font-size: 25px; }
+
+#about-phraa {
+  position: relative;
+  top: 59%;
+  overflow: hidden;
+  clear: both;
+  text-align: center;
+  margin-bottom: 5%; }
+
+/*about-flat close*/
